@@ -1,0 +1,12 @@
+# para todo nutriente: VDR mínimo e máximo
+NUTR		n_min	n_max
+"Energia"	100	NA
+"Carb."		100	NA
+"Prot."		100	NA
+"G. Total"	100	NA
+"G. Sat."	100	NA
+"Colest."	100	NA
+"Fibra"		100	NA
+"Sódio"		100	NA
+"Cálcio"	100	NA
+"Ferro"		100	NA

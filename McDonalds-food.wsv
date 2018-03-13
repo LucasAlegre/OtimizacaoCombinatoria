@@ -1,0 +1,87 @@
+# para todo alimento: custo em reais (agosto 2007) e limites
+# inferiores e superiores para comprar (NA para usar o default)
+FOOD				cost	f_min	f_max veg
+"Big Mac"			6.90	NA	NA    false
+"Big Tasty"			9.40	NA	NA    false
+"Quarterão com Queijo"		6.40	NA	NA    false
+"McNífico Bacon"		7.90	NA	NA    false
+"Cheddar McMelt"		6.90	NA	NA    false
+"McFish"			6.90	NA	NA    false
+"McChicken"			6.40	NA	NA    false
+"Crispy Chicken"		6.90	NA	NA    false
+"Chicken Grill"			6.90	NA	NA    false
+"McDuplo"			3.50	NA	NA    false
+"Cheeseburger"			3.15	NA	NA    false
+"Hamburger"			2.65	NA	NA    false
+"Queijo Quente"			2.50	NA	NA    true
+"McBacon Junior"		3.50	NA	NA    false
+"Mini McSalad Shaker"		3.50	NA	NA    true
+"Premium Salad"			10.45	NA	NA    true
+"Premium Salad Grill"		13.75	NA	NA    false
+"Premium Salad Crispy"		13.75	NA	NA    true
+"Molho Salada Caseiro"		1.50	NA	NA    true
+"Molho Salada Tomate Seco"	1.50	NA	NA    true
+"Molho Salada Ranch"		1.50	NA	NA    true
+"McFritas grande"		4.45	NA	NA    true
+"McFritas média"		3.50	NA	NA    true
+"McFritas pequena"		2.65	NA	NA    true
+"Chicken McNuggets (12 unid.)"	8.45	NA	NA    false
+"Chicken McNuggets (4 unid.)"	3.50	NA	NA    false
+"Chicken McNuggets (6 unid.)"	5.25	NA	NA    false
+"Molho Agridoce"		1.00	NA	NA    true
+"Molho Barbecue"		1.00	NA	NA    true
+"Molho Hot Mustard"		1.00	NA	NA    true
+"Molho Caipira"			1.00	NA	NA    true
+"McFruit Uva (300 ml)"		2.70	NA	NA    true
+"McFruit Uva (500 ml)"		3.20	NA	NA    true
+"McFruit Maracujá (300 ml)"	2.70	NA	NA    true
+"McFruit Maracujá (500 ml)"	3.20	NA	NA    true
+"McFruit Limão (300 ml)"	2.70	NA	NA    true
+"McFruit Limão (500 ml)"	3.20	NA	NA    true
+"McFruit Laranja (300 ml)"	2.70	NA	NA    true
+"McFruit Laranja (500 ml)"	3.20	NA	NA    true
+"Água de Coco"			2.90	NA	NA    true
+"Água de Coco do Ronald"	2.50	NA	NA    true
+"Água Mineral"			1.50	NA	NA    true
+"Água Mineral com gás"		1.50	NA	NA    true
+"Coca-Cola (300 ml)"		2.50	NA	NA    true
+"Coca-Cola (500 ml)"		2.90	NA	NA    true
+"Coca-Cola (700 ml)"		3.20	NA	NA    true
+"Fanta (300 ml)"		2.50	NA	NA    true
+"Fanta (500 ml)"		2.90	NA	NA    true
+"Fanta (700 ml)"		3.20	NA	NA    true
+"Coca-Cola Light (300 ml)"	2.50	NA	NA    true
+"Coca-Cola Light (500 ml)"	2.90	NA	NA    true
+"Coca-Cola Light (700 ml)"	3.20	NA	NA    true
+"Guaraná (300 ml)"		2.50	NA	NA    true
+"Guaraná (500 ml)"		2.90	NA	NA    true
+"Guaraná (700 ml)"		3.20	NA	NA    true
+"Guaraná Zero Açúcar (300 ml)"	2.50	NA	NA    true
+"Guaraná Zero Açúcar (500 ml)"	2.90	NA	NA    true
+"Guaraná Zero Açúcar (700 ml)"	3.20	NA	NA    true
+"Casquinha Baunilha"		1.50	NA	NA    true
+"Casquinha Chocolate"		1.50	NA	NA    true
+"Casquinha Mista"		1.50	NA	NA    true
+"ChocoMac Branco"		2.00	NA	NA    true
+"ChocoMac Preto"		2.00	NA	NA    true
+"McColosso Chocolate"		2.45	NA	NA    true
+"McColosso Doce de Leite"	2.45	NA	NA    true
+"Sundae Chocolate"		3.50	NA	NA    true
+"Sundae Doce de Leite"		3.50	NA	NA    true
+"Sundae Morango"		3.50	NA	NA    true
+"Top Sundae Chocolate"		3.95	NA	NA    true
+"Top Sundae Doce de Leite"	3.95	NA	NA    true
+"Top Sundae Morango"		3.95	NA	NA    true
+"McFlurry Paçoca e Chocolate"	3.95	NA	NA    true
+"McFlurry M&M e Choc. Branco"	3.95	NA	NA    true
+"Super McShake Choc. (300 ml)"	3.95	NA	NA    true
+"Super McShake Choc. (500 ml)"	4.95	NA	NA    true
+"Super McShake Coco (300 ml)"	3.95	NA	NA    true
+"Super McShake Coco (500 ml)"	4.95	NA	NA    true
+"Super McShake Flocos (300 ml)"	3.95	NA	NA    true
+"Super McShake Flocos (500 ml)"	4.95	NA	NA    true
+"Torta de Banana"		2.25	NA	NA    true
+"Torta de Maçã"			2.25	NA	NA    true
+"Iogurte com Frutas e Cereais"	3.60	NA	NA    true
+"Maçã"				1.00	NA	NA    true
+"Achocolatado do Ronald"	2.50	NA	NA    true
