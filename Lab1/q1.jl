@@ -23,5 +23,5 @@ print("Resolução...")
 solve(m)
 println("Ok.")
 
-println("Numero lotes produto1: $(getvalue(x1))")
-println("Numero lotes produto2: $(getvalue(x2))")
+println("Numero de lotes do produto 1: $(getvalue(x1))")
+println("Numero de lotes do produto 2: $(getvalue(x2))")

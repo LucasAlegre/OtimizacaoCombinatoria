@@ -35,6 +35,7 @@ solve(m)
 println("Ok.")
 
 println("Na + Nb + Nc == $(getobjectivevalue(m))")
-println("Nota A = $(getvalue(na)) Nota B = $(getvalue(nb)) Nota C = $(getvalue(nc))"
-)
-println("Horas A = $(getvalue(xa)) Horas B = $(getvalue(xb)) Horas C = $(getvalue(xc))")
+println("Nota A = $(getvalue(na)) Nota B = $(getvalue(nb)) Nota C = $(getvalue(nc))")
+println("Horas de estudo disciplina A = $(getvalue(xa))")
+println("Horas de estudo disciplina B = $(getvalue(xb))")
+println("Horas de estudo disciplina C = $(getvalue(xc))")

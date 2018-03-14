@@ -1,0 +1,30 @@
+#!/usr/bin/env julia
+
+using JuMP
+using GLPKMathProgInterface
+
+# modelo
+m = Model(solver=GLPKSolverLP())
+
+month = collect(1:5)
+need = [30000, 20000, 40000, 10000, 50000]
+cost = [65, 100, 135, 160, 190]
+
+# variáveis
+@variable(m, x[month,month] >= 0)
+
+@objective(m, Min, sum(x[i,j]*cost[j] for i in month, j in month))
+@constraints(m, begin
+             [i in month], need[i] <= sum(x[i,j] for j in month) + sum(x[ai,aj] for ai=1:i-1, aj=5:-1:i-ai+1)
+             end)
+
+# imprime & resolve
+println(m)
+print("Resolução...")
+solve(m)
+println("Ok.")
+
+println("Custo total = $(getobjectivevalue(m))")
+for i in month, j in month
+    println("x[$(i),$(j)] = $(getvalue(x[i,j]))")
+end

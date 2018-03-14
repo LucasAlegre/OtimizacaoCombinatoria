@@ -23,5 +23,6 @@ print("Resolução...")
 solve(m)
 println("Ok.")
 
-println("Numero pães para baurus: $(getvalue(x1))")
-println("Numero baurus: $(getvalue(x2))")
+println("Lucro obtido: $(getobjectivevalue(m))")
+println("Numero de pães para baurus: $(getvalue(x1))")
+println("Numero de baurus: $(getvalue(x2))")
