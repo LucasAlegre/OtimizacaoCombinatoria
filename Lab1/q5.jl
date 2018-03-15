@@ -24,7 +24,9 @@ print("Resolução...")
 solve(m)
 println("Ok.")
 
-println("Custo total = $(getobjectivevalue(m))")
+println("Custo total = $(getobjectivevalue(m)) reais.")
 for i in month, j in month
-    println("x[$(i),$(j)] = $(getvalue(x[i,j]))")
+    if getvalue(x[i,j]) > 0
+        println("No dia $(i) compra $(getvalue(x[i,j])) metros quadrados por $(j) dias.")
+    end
 end
