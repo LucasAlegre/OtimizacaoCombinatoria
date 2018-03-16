@@ -55,6 +55,36 @@ for f in FOOD
     end
 end
 
+# modelo com dieta entre 2000kcal e 2100kcal
+m = Model(solver=GLPKSolverLP())
+
+# variáveis
+@variable(m, x[f in FOOD], lowerbound=f_min[f], upperbound=f_max[f])
+
+@objective(m, Min, sum(cost[f]*x[f] for f in FOOD))
+
+@constraints(m, begin
+             [n in NUTR], n_min[n] <= sum(amt[f,n]*x[f] for f in FOOD)
+             [n in NUTR], sum(amt[f,n]*x[f] for f in FOOD) <= n_max[n]
+             100 <= sum(amt[f,"Energia"]*x[f] for f in FOOD)
+             sum(amt[f,"Energia"]*x[f] for f in FOOD) <= 105
+             end)
+
+# imprime & resolve
+#println(m)
+print("Resolução...")
+solve(m)
+println("Ok.")
+println()
+
+println("A dieta entre 2000kcal e 2100kcal tem um custo total de R\$ $(getobjectivevalue(m))")
+println("É composta de:")
+for f in FOOD
+    if getvalue(x[f]) > 0
+        println("$(getvalue(x[f])) unidades do alimento $(f)")
+    end
+end
+
 # modelo vegetariano
 m = Model(solver=GLPKSolverLP())
 
